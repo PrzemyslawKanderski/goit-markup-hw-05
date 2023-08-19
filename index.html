@@ -163,9 +163,7 @@
                     <a class="links" href="index.html">Studio</a>
                   </li>
                   <li class="nav-items">
-                    <a class="links" href="../goit-markup-hw-04/portfolio.html"
-                      >Portfolio</a
-                    >
+                    <a class="links" href="portfolio.html">Portfolio</a>
                   </li>
                   <li class="nav-items">
                     <a class="links" href="http://kontakt.pl">Contacts</a>
@@ -205,7 +203,13 @@
               <h1>Effective Solutions for Your Business</h1>
             </div>
             <div class="inner-button">
-              <button class="button-main" type="button">Order Service</button>
+              <button data-modal-open class="button-main" type="button">
+                Order Service
+              </button>
+              <div class="modal-is-hidden" data-modal>
+                <button data-modal-close>X</button>
+                <script src="./js/modal.js"></script>
+              </div>
             </div>
           </div>
         </section>
