@@ -203,13 +203,9 @@
               <h1>Effective Solutions for Your Business</h1>
             </div>
             <div class="inner-button">
-              <button data-modal-open class="button-main" type="button">
+              <button class="button-main" type="button" data-modal-open>
                 Order Service
               </button>
-              <div class="modal-is-hidden" data-modal>
-                <button data-modal-close>X</button>
-                <script src="./js/modal.js"></script>
-              </div>
             </div>
           </div>
         </section>
@@ -574,6 +570,13 @@
           </div>
         </div>
       </footer>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" class="close-btn" data-modal-close>X</button>
+        </div>
+        /div>
+        <script src="./js/modal.js"></script>
+      </div>
     </body>
   </div>
 </html>
