@@ -45,6 +45,7 @@ body {
 .navigation-container {
   display: flex;
   align-items: center;
+  gap: 36px;
 }
 .navigation {
   display: flex;
@@ -91,14 +92,14 @@ body {
   width: 100%;
   height: 4px;
   display: block;
-  background-color: var(--pressed-brand, #404bbf);
+  background-color: var(--ocean);
   position: relative;
   top: 21px;
   border-radius: 2px;
 }
 .nav-items {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 .nav-icon {
   border: none;
