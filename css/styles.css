@@ -53,7 +53,7 @@ body {
 }
 .menu {
   display: flex;
-  max-width: 261 px;
+  /* max-width: 261 px; */
   height: 16px;
   flex-grow: 1;
 }
