@@ -537,6 +537,7 @@ h3 {
   justify-content: center;
   fill: #f5f4fa;
   border-radius: 50%;
+  cursor: pointer;
 }
 .social-icons:hover,
 .social-icons:focus {
